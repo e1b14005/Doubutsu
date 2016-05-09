@@ -16,7 +16,6 @@ class Board {
     mArea[1].draw();
     iArea.draw();
   }
-}
 
  
  void select(int x, int y){
@@ -27,4 +26,5 @@ class Board {
       koma.move(x,y);
       koma.kStat.selected=false;
     }
-  }
+ }
+}

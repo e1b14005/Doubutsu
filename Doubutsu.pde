@@ -7,8 +7,9 @@ void setup() {
   surface.setSize(6*SQUARESIZE, 4*SQUARESIZE);
   board = new Board();
   komaList = new KomaList();
-}
+
   gs = new GameStatus();
+}
 
 void draw() {
   board.draw();
